@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/C++Project/Lab4/functions.h
+mutex
+-
+string
+-
+thread
+-
+deque
+-
+
+E:/C++Project/Lab4/main.cpp
+functions.h
+E:/C++Project/Lab4/functions.h
+iostream
+-
+string
+-
+thread
+-
+fstream
+-
+
